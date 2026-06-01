@@ -53,12 +53,12 @@ body, html {
   /* Proporciones calculadas para calzar en la puerta de tu diseño */
   top: 15.6%;          
   left: 8.6%;         
-  width: 50.4%;       
-  height: 54.4%;      
+  width: 46%;       
+  height: 50%;      
   
   background-color: #1a252f; /* Fondo oscuro inicial tras el cristal */
   border-radius: 4px;
-  padding: 22px;
+  padding: 25px;
   box-sizing: border-box;
   overflow-y: auto;
   
