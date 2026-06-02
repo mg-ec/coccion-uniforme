@@ -58,11 +58,13 @@ body, html {
   
   background-color: #1a252f; /* Fondo oscuro inicial tras el cristal */
   border-radius: 4px;
-  padding: 25px;
-  box-sizing: border-box;
-  overflow-y: auto;
   
-  /* Ocultamos las barras de scroll */
+  /* REDUCIDO: Bajamos el padding a 12px para ganar valioso espacio de lectura */
+  padding: 12px 14px; 
+  box-sizing: border-box;
+  
+  /* Mantenemos tu genial scroll oculto */
+  overflow-y: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
   
@@ -77,13 +79,17 @@ body, html {
 
 /* Contenedor del párrafo para los efectos de desvanecimiento y calor */
 #text-display {
+  width: 100%;
+  height: 100%; /* Forzamos a que use el 100% de la ventana estirada */
   transition: opacity 0.5s ease, filter 0.5s ease, transform 0.5s ease;
 }
 
 #text-display p {
   margin: 0;
-  font-size: 14px;
-  line-height: 1.5;
+  /* AJUSTADO: 12.5px es el tamaño ideal para que textos de ~450 caracteres quepan 
+     completos en este espacio sin forzar la vista y manteniendo la estética */
+  font-size: 12.5px; 
+  line-height: 1.35; /* Un interlineado ligeramente más cerrado para compactar el bloque */
   text-align: justify;
 }
 
