@@ -86,7 +86,7 @@ function apagarMicroondas() {
   
   textDisplay.innerHTML += `
     <p style="color: #ffda79; font-weight: bold; margin-top: 15px; text-align: center; letter-spacing: 1px;">
-      🔔 ¡CLING! Proceso de destilación finalizado.
+      🔔 ¡Proceso de cocción finalizado! Para más uniformidad, copie y pegue en su modelo de IA Generativa preferido.
     </p>`;
 }
 
