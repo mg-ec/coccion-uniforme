@@ -52,9 +52,9 @@ body, html {
   position: absolute;
   /* Proporciones calculadas para calzar en la puerta de tu diseño */
   top: 15.6%;          
-  left: 10.6%;         
-  width: 46%;       
-  height: 50%;      
+  left: 20.6%;         
+  width: 76%;       
+  height: 80%;      
   
   background-color: #1a252f; /* Fondo oscuro inicial tras el cristal */
   border-radius: 4px;
