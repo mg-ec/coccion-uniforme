@@ -14,7 +14,7 @@ body, html {
   background-position: center;                   /* Centra la imagen para que se vea perfecta en cualquier monitor */
   background-repeat: no-repeat;                 /* Evita que la imagen se duplique como mosaico */
   background-attachment: fixed;                  /* Deja el fondo fijo para que no se mueva si hay scrolls externos */
-  background-color: ##5b669a;                     /* Mantenemos tu color original como respaldo por si la imagen tarda en cargar */
+  background-color: #5b669a;                     /* Mantenemos tu color original como respaldo por si la imagen tarda en cargar */
   /* Por defecto iniciamos con la fuente manual que combina con tus trazos */
   font-family: 'Delius', cursive, sans-serif;
 }
@@ -65,7 +65,7 @@ body, html {
   width: 56%;       
   height: 80%;      
   
-  background-color: #1a252f; /* Fondo oscuro inicial tras el cristal */
+  background-color: #5b669a; /* Fondo oscuro inicial tras el cristal */
   border-radius: 4px;
   
   /* REDUCIDO: Bajamos el padding a 12px para ganar valioso espacio de lectura */
