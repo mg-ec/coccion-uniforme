@@ -76,6 +76,11 @@ body, html {
   color: #a4b0be; 
   z-index: 1; /* Detrás del chasis para que actúe como máscara */
   transition: background-color 0.6s ease, color 0.6s ease, text-shadow 0.6s ease;
+
+   display: flex;
+  flex-direction: column;    /* Alinea los elementos (Fase de cocción + Párrafo) verticalmente */
+  justify-content: center;   /* Centra el contenido verticalmente (arriba-abajo) */
+  align-items: center;       /* Centra el contenido horizontalmente (izquierda-derecha) */
 }
 
 .screen::-webkit-scrollbar {
