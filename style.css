@@ -34,6 +34,10 @@ body, html {
   position: relative;
   width: 750px;  /* Escalado proporcional para que quepa bien en los monitores */
   height: 500px;
+   
+   background-color: #151d24; 
+  border-radius: 12px; /* Opcional: por si tu ilustración tiene esquinas redondeadas */
+}
 }
 
 /* CAPA DE LA ILUSTRACIÓN (Al frente de la pantalla) */
